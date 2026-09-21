@@ -7,5 +7,4 @@ while keepAsking == True:
 		print("The sum of both numbers is:", number1 + number2)
 		keepAsking = False
 	except ValueError:
-
 		print("Error: Caracter introduced wasn't an integer number.")

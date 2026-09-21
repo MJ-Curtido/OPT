@@ -7,5 +7,4 @@ while keepAsking == True:
 		print("The substraction of both numers is:", number2 - number1)
 		keepAsking = False
 	except ValueError:
-
 		print("Error: Caracter introduced wasn't an integer number.")
