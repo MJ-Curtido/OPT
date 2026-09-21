@@ -4,7 +4,7 @@ while keepAsking == True:
 	try:
 		number1 = float(input("Introduce a number:"))
 		number2 = float(input("Introduce another number:"))
-		print("La suma de ambos número es:", number1 + number2)
+		print("The sum of both numbers is:", number1 + number2)
 		keepAsking = False
 	except ValueError:
 

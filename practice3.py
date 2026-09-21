@@ -4,7 +4,7 @@ while keepAsking == True:
 	try:
 		number1 = int(input("Introduce an integer number:"))
 		number2 = int(input("Introduce another integer number:"))
-		print("The sum of both numbers is:", number1 + number2)
+		print("The substraction of both numers is:", number2 - number1)
 		keepAsking = False
 	except ValueError:
 
