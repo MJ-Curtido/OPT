@@ -10,3 +10,5 @@ while keepAsking == True:
 		keepAsking = False
 	except ValueError:
 		print("Error: Caracter introduced wasn't an integer number.")
+	except ZeroDivisionError:
+		print("Error: 0 is not divisible.")
