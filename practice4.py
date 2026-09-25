@@ -1,3 +1,5 @@
+# Realiza un programa que pida dos números enteros al usuario y devuelva el producto de ambos.
+
 keepAsking = True
 
 while keepAsking == True:

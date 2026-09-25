@@ -1,3 +1,5 @@
+# Crea un programa que pida dos números enteros y muestre el resultado de restar el segundo número al primero.
+
 keepAsking = True
 
 while keepAsking == True:

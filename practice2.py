@@ -1,3 +1,5 @@
+# Escribe un programa que pida al usuario dos números reales (decimales) y calcule su suma.
+
 keepAsking = True
 
 while keepAsking == True:

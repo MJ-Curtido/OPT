@@ -1,3 +1,5 @@
+# Pedir dos números enteros y hacer la división entera.
+
 keepAsking = True
 
 while keepAsking == True:

@@ -1,3 +1,5 @@
+# Escribe un programa que solicite al usuario dos números enteros y muestre la suma de ambos.
+
 keepAsking = True
 
 while keepAsking == True:
