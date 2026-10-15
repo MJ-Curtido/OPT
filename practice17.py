@@ -1,4 +1,4 @@
-from practice17_functions import showList
+from practice17_functions import showList, showElement
 
 fruits = ['apple', 'banana', 'orange']
 
@@ -19,13 +19,13 @@ while keepAsking == True:
 			case 1:
 				showList(fruits)
 			case 2:
-				showElement()
+				showElement(fruits)
 			case 3:
-				addElement()
+				addElement() # TODO: Create and add function
 			case 4:
-				modElement()
+				modElement() # TODO: Create and add function
 			case 5:
-				delElement()
+				delElement() # TODO: Create and add function
 			case 6:
 				print("Goodbye!!")
 				keepAsking = False
