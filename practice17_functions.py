@@ -33,10 +33,27 @@ def modElement(list):
 		index = int(input('Introduce the position of the fruit you want to modify:'))
 		fruit = input('Introduce the name of a fruit:')
 
-		if (index and fruit):
+		if (index > 0 and index <= len(list) and fruit):
 			list[index - 1] = fruit
 
 			print('\n\nFruit modified successfully.')
+		else:
+			print('\n\nThere is no element in that number.')
+	except Exception as e:
+		print('Introduce a correct value.')
+
+def delElement(list):
+	showList(list)
+
+	print('\n\n')
+
+	try:
+		index = int(input('Introduce the position of the fruit you want to delete:'))
+
+		if (index > 0 and index <= len(list)):
+			list.pop(index - 1)
+
+			print('\n\nFruit deleted successfully.')
 		else:
 			print('\n\nThere is no element in that number.')
 	except Exception as e:
