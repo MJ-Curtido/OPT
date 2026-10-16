@@ -21,7 +21,7 @@ while keepAsking == True:
 			case 2:
 				showElement(fruits)
 			case 3:
-				addElement() # TODO: Create and add function
+				addElement(fruits)
 			case 4:
 				modElement() # TODO: Create and add function
 			case 5:
