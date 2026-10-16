@@ -5,19 +5,39 @@ def showList(list):
 		print(element)
 
 def showElement(list):
-	number = int(input('Introduce a number:'))
+	try:
+		number = int(input('Introduce a number:'))
 
-	if (number > 0 and number <= len(list)):
-		print(number, 'º element: ', list[number - 1])
-	else:
-		print('There is no element in that number.')
+		if (number > 0 and number <= len(list)):
+			print(number, 'º element: ', list[number - 1])
+		else:
+			print('\n\nThere is no element in that number.')
+	except Exception as e:
+		print('Introduce a correct value.')
 
 def addElement(list):
 	fruit = input('Introduce the name of a fruit:')
 
 	if (fruit):
 		list.append(fruit)
-		print('Fruit successful added.')
+		print('\n\nFruit added successfully.')
 	else:
-		print('Invalid fruit.')
+		print('\n\nInvalid fruit.')
 
+def modElement(list):
+	showList(list)
+
+	print('\n\n')
+
+	try:
+		index = int(input('Introduce the position of the fruit you want to modify:'))
+		fruit = input('Introduce the name of a fruit:')
+
+		if (index and fruit):
+			list[index - 1] = fruit
+
+			print('\n\nFruit modified successfully.')
+		else:
+			print('\n\nThere is no element in that number.')
+	except Exception as e:
+		print('Introduce a correct value.')

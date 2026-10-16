@@ -1,4 +1,4 @@
-from practice17_functions import showList, showElement
+from practice17_functions import showList, showElement, addElement, modElement
 
 fruits = ['apple', 'banana', 'orange']
 
@@ -23,7 +23,7 @@ while keepAsking == True:
 			case 3:
 				addElement(fruits)
 			case 4:
-				modElement() # TODO: Create and add function
+				modElement(fruits)
 			case 5:
 				delElement() # TODO: Create and add function
 			case 6:
