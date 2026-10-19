@@ -46,12 +46,13 @@ def newSell(marcas, ventas):
 	except Exception as e:
 		print(e)
 
-def sellReport(ventas):
+# Esta función tiene 3 variantes, 1 (marca_modelo_añoVenta), 2 (marca_modelo), 3 (marca)
+def sellReport(ventas, option):
 	try:
 		salesDic = {}
 
 		for element in ventas:
-			sale = f'{element[0]}_{element[1]}_{element[2]}'
+			sale = f'{element[0]}_{element[1]}_{element[2]}' if option == 1 else f'{element[0]}_{element[1]}' if option == 2 else f'{element[0]}'
 			
 			if sale in salesDic:
 				salesDic[sale][0] += 1

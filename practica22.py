@@ -33,11 +33,11 @@ while keepAsking == True:
 			case 1:
 				newSell(MARCAS_MODELOS, ventas)
 			case 2:
-				sellReport(ventas)
+				sellReport(ventas, 1)
 			case 3:
-				print()
+				sellReport(ventas, 2)
 			case 4:
-				print()
+				sellReport(ventas, 3)
 			case 5:
 				print("Hasta luego!!")
 				keepAsking = False
