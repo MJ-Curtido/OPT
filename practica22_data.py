@@ -19,3 +19,9 @@ ventas = [
 	["Toyota", "RAV4", 2024, 2024, 38000], ["Toyota", "RAV4", 2025, 2025, 39500], ["Toyota", "RAV4", 2026, 2026, 41000],
 	["Toyota", "C-HR", 2024, 2024, 31000], ["Toyota", "C-HR", 2025, 2025, 32500], ["Toyota", "C-HR", 2026, 2026, 34000]
 ]
+
+MIN_YEAR_FAB = 1990
+MIN_YEAR_SELL = 2024
+MAX_YEAR_SELL = 2026
+MIN_PRICE = 1000
+MAX_PRICE = 100000

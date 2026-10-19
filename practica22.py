@@ -31,7 +31,7 @@ while keepAsking == True:
 
 		match option:
 			case 1:
-				newSell(MARCAS_MODELOS)
+				newSell(MARCAS_MODELOS, ventas)
 			case 2:
 				print()
 			case 3:
