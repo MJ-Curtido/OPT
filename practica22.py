@@ -8,7 +8,7 @@
 # pueda visualizar 3 tipos de resúmenes de ventas.
 
 from practica22_data import MARCAS_MODELOS, ventas
-from practica22_functions import newSell
+from practica22_functions import newSell, sellReport
 
 fruits = ['apple', 'banana', 'orange']
 
@@ -33,7 +33,7 @@ while keepAsking == True:
 			case 1:
 				newSell(MARCAS_MODELOS, ventas)
 			case 2:
-				print()
+				sellReport(ventas)
 			case 3:
 				print()
 			case 4:

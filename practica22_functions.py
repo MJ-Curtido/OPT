@@ -45,3 +45,23 @@ def newSell(marcas, ventas):
 		print('Venta registrada correctamente.')
 	except Exception as e:
 		print(e)
+
+def sellReport(ventas):
+	try:
+		salesDic = {}
+
+		for element in ventas:
+			sale = f'{element[0]}_{element[1]}_{element[2]}'
+			
+			if sale in salesDic:
+				salesDic[sale][0] += 1
+				salesDic[sale][1] += element[4]
+			else:
+				salesDic[sale] = [1, element[4]]
+
+		for key, value in salesDic.items():
+			print(f'- {key}:')
+			print(f'\tUnidades vendidas: {value[0]}')
+			print(f'\tEuros acumulados: {value[1]}€\n')
+	except Exception as e:
+		print(e)
