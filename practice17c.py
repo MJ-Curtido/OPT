@@ -11,7 +11,7 @@ while keepAsking == True:
 		print("Choose an option:\n\t1. Show list.\n\t2. Show an element.\n\t3. Add element.\n\t4. Modify element.\n\t5. Delete element.\n\t6. Exit.")
 		option = int(input("Introduce an option:"))
 		
-		if option < 1 or option > 14: raise type("valueException", (Exception,), {})("Introduce a valid option.")
+		if option < 1 or option > 6: raise type("valueException", (Exception,), {})("Introduce a valid option.")
 		
 		print("\n")
 
