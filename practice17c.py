@@ -1,4 +1,4 @@
-from practice17_functions import showList, showElement, addElement, modElement, delElement
+from practice17c_functions import showList, showElement, addElement, modElement, delElement
 
 fruits = ['apple', 'banana', 'orange']
 
