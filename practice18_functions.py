@@ -70,7 +70,7 @@ def show_keys_value_dict(elements, option):
 def add_mod_element_dict(elements):
 	try:
 		fruit = input('Introduce a name of a fruit: ')
-		price = int(input('Introduce the price of that fruit: '))
+		price = float(input('Introduce the price of that fruit: '))
 
 		if fruit and price >= 0:
 			elements[fruit] = price
