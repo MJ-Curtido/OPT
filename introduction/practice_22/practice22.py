@@ -7,8 +7,8 @@
 # registros de ventas (con los datos: Marca, Modelo, AñoVenta, AñoFabricacion y precio) y
 # pueda visualizar 3 tipos de resúmenes de ventas.
 
-from practica22_data import MARCAS_MODELOS, ventas
-from practica22_functions import newSell, sellReport
+from practice22_data import MARCAS_MODELOS, ventas
+from practice22_functions import newSell, sellReport
 
 fruits = ['apple', 'banana', 'orange']
 
