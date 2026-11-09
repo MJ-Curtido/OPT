@@ -34,11 +34,11 @@ class Departamento:
 
 	def __str__(self):
 		text = f"Departamento {self.nombre}"
-		text += f" - Gerente: {self.gerente.nombre}"
-		text += " - Trabajadores: "
+		text += f"\n - Gerente: {self.gerente.nombre}"
+		text += "\n - Trabajadores: "
 		for employee in self.trabajadores:
-			text += f"\t + {employee.nombre}"
-		text += "\n"
+			text += f"\n\t + {employee.nombre} · ({employee.calcular_sueldo()} €)"
+		text += "\n\n"
 
 		return text
 
